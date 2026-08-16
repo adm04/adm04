@@ -166,8 +166,6 @@
 <h3 align="left"><code>[06 // NOTHING OS MUSIC PLAYER &amp; CONSOLE]</code></h3>
 
 <div align="center">
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWSIXPHRZ4SKc?utm_source=generator&theme=0" width="340" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  <br/><br/>
   <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank" title="Click to open Full Nothing OS Interactive Music Player">
     <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-player.svg?v=1" width="340" alt="Nothing OS Animated Music Player Widget" />
   </a>
