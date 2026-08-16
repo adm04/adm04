@@ -162,8 +162,8 @@
 
 <hr opacity="0.2"/>
 
-<!-- NOTHING OS MUSIC PLAYER & DEV QUOTE -->
-<h3 align="left"><code>[06 // NOTHING OS MUSIC PLAYER &amp; CONSOLE]</code></h3>
+<!-- BATCAVE SOUND CONSOLE & DEV QUOTE -->
+<h3 align="left"><code>[06 // BATCAVE SOUND CONSOLE]</code></h3>
 
 <div align="center">
   <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank" title="Click to open Full Nothing OS Interactive Music Player">
