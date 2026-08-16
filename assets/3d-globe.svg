@@ -1,159 +1,143 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
-    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#141824"/>
-      <stop offset="100%" stop-color="#0a0c12"/>
-    </radialGradient>
+    <!-- Dot Matrix Background Pattern -->
+    <pattern id="globeDotGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="1.2" fill="#222222"/>
+    </pattern>
 
-    <!-- Globe Glow -->
-    <radialGradient id="globeGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="70%" stop-color="#61afef" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#61afef" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="coreGlow" cx="40%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#1e2638"/>
-      <stop offset="60%" stop-color="#101420"/>
-      <stop offset="100%" stop-color="#090b10"/>
-    </radialGradient>
-
-    <!-- Glass Overlay Gradient -->
-    <linearGradient id="glassBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#61afef" stop-opacity="0.4"/>
-      <stop offset="50%" stop-color="#282c34" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#e5c07b" stop-opacity="0.4"/>
-    </linearGradient>
+    <!-- Signal Red Pulse Filter -->
+    <filter id="redPulseGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
     <!-- Arc Gradient -->
-    <linearGradient id="arcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#61afef" stop-opacity="0.9"/>
-      <stop offset="50%" stop-color="#e06c75" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#e5c07b" stop-opacity="0.9"/>
+    <linearGradient id="nothingArc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D71921" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#999999" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#333333" stop-opacity="0.2"/>
     </linearGradient>
   </defs>
 
-  <!-- Card Outer Container -->
-  <rect width="796" height="396" x="2" y="2" rx="16" fill="url(#bgGrad)" stroke="url(#glassBorder)" stroke-width="2"/>
+  <!-- OLED Outer Container -->
+  <rect width="796" height="396" x="2" y="2" fill="#0A0A0A" stroke="#222222" stroke-width="1.5"/>
 
-  <!-- Left Side: Interactive 3D Globe Visual -->
+  <!-- Dot Grid Pattern -->
+  <rect width="796" height="396" x="2" y="2" fill="url(#globeDotGrid)"/>
+
+  <!-- Left Side: Nothing 3D Wireframe Globe -->
   <g transform="translate(0,0)">
-    <!-- Atmosphere Glow -->
-    <circle cx="260" cy="200" r="145" fill="url(#globeGlow)"/>
-
-    <!-- Rotating Tech Orbit Ring 1 -->
+    <!-- Tech Orbit Ring 1 -->
     <g>
-      <circle cx="260" cy="200" r="140" fill="none" stroke="#61afef" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="8 8"/>
-      <animateTransform attributeName="transform" type="rotate" from="0 260 200" to="360 260 200" dur="20s" repeatCount="indefinite"/>
+      <circle cx="250" cy="200" r="140" fill="none" stroke="#333333" stroke-width="1" stroke-dasharray="6 6"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 250 200" to="360 250 200" dur="25s" repeatCount="indefinite"/>
     </g>
 
-    <!-- Rotating Tech Orbit Ring 2 -->
+    <!-- Tech Orbit Ring 2 -->
     <g>
-      <circle cx="260" cy="200" r="152" fill="none" stroke="#e5c07b" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="14 10"/>
-      <animateTransform attributeName="transform" type="rotate" from="360 260 200" to="0 260 200" dur="30s" repeatCount="indefinite"/>
+      <circle cx="250" cy="200" r="154" fill="none" stroke="#222222" stroke-width="1" stroke-dasharray="12 8"/>
+      <animateTransform attributeName="transform" type="rotate" from="360 250 200" to="0 250 200" dur="35s" repeatCount="indefinite"/>
     </g>
 
-    <!-- Globe Sphere Base -->
-    <circle cx="260" cy="200" r="120" fill="url(#coreGlow)" stroke="#61afef" stroke-opacity="0.5" stroke-width="2"/>
+    <!-- Globe Base Outer Ring -->
+    <circle cx="250" cy="200" r="120" fill="#111111" stroke="#333333" stroke-width="1.5"/>
 
     <!-- 3D Latitude Lines -->
-    <ellipse cx="260" cy="200" rx="120" ry="35" fill="none" stroke="#61afef" stroke-opacity="0.3" stroke-width="1"/>
-    <ellipse cx="260" cy="200" rx="120" ry="70" fill="none" stroke="#61afef" stroke-opacity="0.25" stroke-width="1"/>
-    <ellipse cx="260" cy="200" rx="120" ry="100" fill="none" stroke="#61afef" stroke-opacity="0.2" stroke-width="1"/>
+    <ellipse cx="250" cy="200" rx="120" ry="35" fill="none" stroke="#333333" stroke-width="1"/>
+    <ellipse cx="250" cy="200" rx="120" ry="70" fill="none" stroke="#222222" stroke-width="1"/>
+    <ellipse cx="250" cy="200" rx="120" ry="100" fill="none" stroke="#222222" stroke-width="1"/>
 
-    <!-- 3D Longitude Meridian Curves -->
-    <ellipse cx="260" cy="200" rx="35" ry="120" fill="none" stroke="#61afef" stroke-opacity="0.3" stroke-width="1"/>
-    <ellipse cx="260" cy="200" rx="75" ry="120" fill="none" stroke="#61afef" stroke-opacity="0.25" stroke-width="1"/>
-    <line x1="260" y1="80" x2="260" y2="320" stroke="#61afef" stroke-opacity="0.4" stroke-width="1"/>
+    <!-- 3D Longitude Lines -->
+    <ellipse cx="250" cy="200" rx="35" ry="120" fill="none" stroke="#333333" stroke-width="1"/>
+    <ellipse cx="250" cy="200" rx="75" ry="120" fill="none" stroke="#222222" stroke-width="1"/>
+    <line x1="250" y1="80" x2="250" y2="320" stroke="#333333" stroke-width="1"/>
 
-    <!-- Rotating Continent Nodes Group -->
+    <!-- Rotating Region Dot Nodes -->
     <g>
-      <!-- Asia / India Region -->
-      <circle cx="290" cy="170" r="4" fill="#e5c07b"/>
-      <circle cx="280" cy="165" r="3" fill="#61afef"/>
-      <circle cx="300" cy="160" r="3" fill="#61afef"/>
-      <circle cx="310" cy="175" r="3" fill="#61afef"/>
-      <circle cx="275" cy="180" r="3" fill="#61afef"/>
-      <circle cx="295" cy="185" r="3" fill="#61afef"/>
-      <!-- Europe / Africa Region -->
-      <circle cx="230" cy="150" r="3" fill="#98c379"/>
-      <circle cx="220" cy="140" r="2.5" fill="#98c379"/>
-      <circle cx="240" cy="165" r="2.5" fill="#98c379"/>
-      <circle cx="235" cy="190" r="3" fill="#98c379"/>
-      <circle cx="245" cy="210" r="2.5" fill="#98c379"/>
-      <!-- Americas Region -->
-      <circle cx="170" cy="160" r="2.5" fill="#c678dd"/>
-      <circle cx="180" cy="175" r="3" fill="#c678dd"/>
-      <circle cx="190" cy="220" r="2.5" fill="#c678dd"/>
-      <!-- Oceania Region -->
-      <circle cx="330" cy="230" r="3" fill="#56b6c2"/>
-      <circle cx="345" cy="235" r="2.5" fill="#56b6c2"/>
+      <!-- India / Asia Nodes -->
+      <circle cx="280" cy="170" r="3.5" fill="#FFFFFF"/>
+      <circle cx="270" cy="165" r="2.5" fill="#999999"/>
+      <circle cx="290" cy="160" r="2.5" fill="#999999"/>
+      <circle cx="300" cy="175" r="2.5" fill="#999999"/>
+      <circle cx="265" cy="180" r="2.5" fill="#999999"/>
+      <!-- Europe / Africa Nodes -->
+      <circle cx="220" cy="150" r="2.5" fill="#666666"/>
+      <circle cx="210" cy="140" r="2" fill="#666666"/>
+      <circle cx="230" cy="165" r="2" fill="#666666"/>
+      <circle cx="225" cy="190" r="2.5" fill="#666666"/>
+      <!-- Americas Nodes -->
+      <circle cx="160" cy="160" r="2" fill="#444444"/>
+      <circle cx="170" cy="175" r="2.5" fill="#444444"/>
+      <circle cx="180" cy="220" r="2" fill="#444444"/>
 
-      <animateTransform attributeName="transform" type="rotate" from="0 260 200" to="360 260 200" dur="40s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 250 200" to="360 250 200" dur="40s" repeatCount="indefinite"/>
     </g>
 
-    <!-- Flight Arc -->
-    <path d="M 290 170 Q 230 100 170 160" fill="none" stroke="url(#arcGrad)" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <!-- Flight Vector Arc -->
+    <path d="M 280 170 Q 220 100 160 160" fill="none" stroke="url(#nothingArc)" stroke-width="2" stroke-dasharray="4 4"/>
 
-    <!-- Pulsing Pin on India Point -->
-    <g transform="translate(290, 170)">
-      <circle cx="0" cy="0" r="6" fill="#e5c07b" fill-opacity="0.5">
-        <animate attributeName="r" values="4;18;4" dur="2s" repeatCount="indefinite"/>
+    <!-- Signal Red Active Location Pulse on India Point -->
+    <g transform="translate(280, 170)">
+      <circle cx="0" cy="0" r="6" fill="#D71921" fill-opacity="0.4" filter="url(#redPulseGlow)">
+        <animate attributeName="r" values="3;16;3" dur="2s" repeatCount="indefinite"/>
         <animate attributeName="fill-opacity" values="0.8;0.1;0.8" dur="2s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="0" cy="0" r="4.5" fill="#e5c07b"/>
-      <circle cx="0" cy="0" r="2" fill="#ffffff"/>
+      <circle cx="0" cy="0" r="4" fill="#D71921"/>
+      <circle cx="0" cy="0" r="1.5" fill="#FFFFFF"/>
     </g>
 
-    <!-- Location Tag Badge -->
-    <g transform="translate(305, 142)">
-      <rect width="115" height="28" rx="6" fill="#1e222b" stroke="#e5c07b" stroke-width="1.2"/>
-      <text x="10" y="18" font-family="'Fira Code', monospace" font-size="11" font-weight="600" fill="#e5c07b">📍 India (IST)</text>
+    <!-- Technical Location Tag -->
+    <g transform="translate(295, 142)">
+      <rect width="130" height="26" fill="#111111" stroke="#333333" stroke-width="1"/>
+      <text x="10" y="17" font-family="'Space Mono', monospace" font-size="10" fill="#E8E8E8">LOC: INDIA (IST)</text>
     </g>
   </g>
 
-  <!-- Right Side: Text Details -->
-  <g transform="translate(465, 65)">
+  <!-- Right Side: Nothing OS Instrument Parameter Panel -->
+  <g transform="translate(450, 50)">
     <!-- Header Title -->
-    <text x="0" y="30" font-family="'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" fill="#ffffff">
-      Global Presence 🌐
+    <text x="0" y="24" font-family="'Space Mono', monospace" font-size="14" font-weight="bold" fill="#FFFFFF" letter-spacing="1">
+      [03 // GLOBAL MATRIX]
     </text>
 
     <!-- Subtitle -->
-    <text x="0" y="55" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" fill="#abb2bf">
-      Interactive 3D Location &amp; Remote Availability
+    <text x="0" y="46" font-family="'Space Mono', monospace" font-size="11" fill="#666666" letter-spacing="1">
+      LOCATION &amp; REMOTE MATRIX READOUT
     </text>
 
-    <line x1="0" y1="72" x2="280" y2="72" stroke="#282c34" stroke-width="1.5"/>
+    <line x1="0" y1="60" x2="310" y2="60" stroke="#222222" stroke-width="1"/>
 
-    <!-- Information Bullets -->
-    <g transform="translate(0, 95)">
-      <!-- Item 1 -->
-      <circle cx="8" cy="8" r="4" fill="#e06c75"/>
-      <text x="24" y="12" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e06c75">Location:</text>
-      <text x="95" y="12" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" fill="#d19a66">Kolkata, India 🇮🇳</text>
+    <!-- Information Bullets (Instrument Rows) -->
+    <g transform="translate(0, 85)">
+      <!-- Row 1 -->
+      <circle cx="4" cy="8" r="3" fill="#D71921"/>
+      <text x="18" y="12" font-family="'Space Mono', monospace" font-size="11" font-weight="bold" fill="#999999">LOCATION:</text>
+      <text x="110" y="12" font-family="'Space Mono', monospace" font-size="11" fill="#E8E8E8">KOLKATA, INDIA (IST)</text>
 
-      <!-- Item 2 -->
-      <circle cx="8" cy="38" r="4" fill="#98c379"/>
-      <text x="24" y="42" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#98c379">Time Zone:</text>
-      <text x="105" y="42" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" fill="#abb2bf">IST (UTC +5:30)</text>
+      <!-- Row 2 -->
+      <circle cx="4" cy="38" r="3" fill="#E8E8E8"/>
+      <text x="18" y="42" font-family="'Space Mono', monospace" font-size="11" font-weight="bold" fill="#999999">TIMEZONE:</text>
+      <text x="110" y="42" font-family="'Space Mono', monospace" font-size="11" fill="#E8E8E8">UTC +5:30 (IST)</text>
 
-      <!-- Item 3 -->
-      <circle cx="8" cy="68" r="4" fill="#e5c07b"/>
-      <text x="24" y="72" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e5c07b">Work Model:</text>
-      <text x="115" y="72" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" fill="#61afef">Remote / Worldwide 🌍</text>
+      <!-- Row 3 -->
+      <circle cx="4" cy="68" r="3" fill="#E8E8E8"/>
+      <text x="18" y="72" font-family="'Space Mono', monospace" font-size="11" font-weight="bold" fill="#999999">MODEL:</text>
+      <text x="110" y="72" font-family="'Space Mono', monospace" font-size="11" fill="#E8E8E8">REMOTE / WORLDWIDE</text>
 
-      <!-- Item 4 -->
-      <circle cx="8" cy="98" r="4" fill="#c678dd"/>
-      <text x="24" y="102" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#c678dd">Languages:</text>
-      <text x="105" y="102" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" fill="#abb2bf">English, Bengali, Hindi</text>
+      <!-- Row 4 -->
+      <circle cx="4" cy="98" r="3" fill="#E8E8E8"/>
+      <text x="18" y="102" font-family="'Space Mono', monospace" font-size="11" font-weight="bold" fill="#999999">LANGUAGES:</text>
+      <text x="110" y="102" font-family="'Space Mono', monospace" font-size="11" fill="#E8E8E8">ENGLISH, BENGALI, HINDI</text>
     </g>
 
-    <!-- Status Badge -->
-    <g transform="translate(0, 235)">
-      <rect width="275" height="32" rx="8" fill="#1b2234" stroke="#61afef" stroke-width="1"/>
-      <circle cx="18" cy="16" r="4" fill="#98c379"/>
-      <text x="30" y="20" font-family="'Fira Code', monospace" font-size="11" font-weight="600" fill="#98c379">AVAILABLE FOR FREELANCE &amp; PROJECTS</text>
+    <!-- Status Readout Box -->
+    <g transform="translate(0, 225)">
+      <rect width="310" height="36" fill="#111111" stroke="#222222" stroke-width="1"/>
+      <circle cx="16" cy="18" r="3.5" fill="#D71921" filter="url(#redPulseGlow)"/>
+      <text x="30" y="22" font-family="'Space Mono', monospace" font-size="10" font-weight="bold" fill="#E8E8E8" letter-spacing="0.5">STATUS: AVAILABLE FOR FREELANCE</text>
     </g>
   </g>
 </svg>

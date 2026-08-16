@@ -1,173 +1,184 @@
-<!-- Top Banner Graphic -->
+<!-- ND-OS // SYSTEM HEADER BANNER -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/banner.png" width="100%" alt="Arkadeb Mondal Banner"/>
+  <img src="assets/nothing-banner.svg" width="100%" alt="Arkadeb Mondal - Nothing OS Header Banner"/>
 </p>
 
-<!-- Top Badges Row -->
+<!-- INSTRUMENT BADGES ROW -->
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=adm04">
-    <img src="https://komarev.com/ghpvc/?username=adm04&label=Profile%20Views&color=61afef&style=for-the-badge" alt="Profile Views" />
+    <img src="https://img.shields.io/badge/VIEWS-PROFILE--METRICS-0A0A0A?style=for-the-badge&logoWidth=0&labelColor=0A0A0A&color=D71921" alt="Profile Views" />
   </a>
   <a href="https://github.com/adm04?tab=repositories">
-    <img src="https://img.shields.io/github/stars/adm04?style=for-the-badge&label=Total%20Stars&color=e3b341" alt="GitHub Stars" />
+    <img src="https://img.shields.io/github/stars/adm04?style=for-the-badge&label=STARS&labelColor=0A0A0A&color=222222" alt="GitHub Stars" />
   </a>
   <a href="https://github.com/adm04">
-    <img src="https://img.shields.io/github/followers/adm04?style=for-the-badge&label=Followers&color=2ea44f" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/followers/adm04?style=for-the-badge&label=FOLLOWERS&labelColor=0A0A0A&color=222222" alt="GitHub Followers" />
   </a>
-  <img src="https://img.shields.io/badge/Joined%20GitHub-2021-blueviolet?style=for-the-badge" alt="Joined GitHub" />
+  <img src="https://img.shields.io/badge/JOINED-2021-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=222222" alt="Joined GitHub" />
 </p>
 
 <br/>
 
-<!-- Animated Typing SVG Header -->
+<!-- ANIMATED TERMINAL TYPEWRITER -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=61AFEF&center=true&vCenter=true&repeat=true&width=650&height=45&lines=Full+Stack+Developer+%26+UI%2FUX+Designer;Building+modern,+scalable+web+experiences;Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=22&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=true&width=750&height=40&lines=%5B%2B%5D+FULL-STACK+ARCHITECT+%26+UI%2FUX+DESIGNER;%5B%2B%5D+CRAFTING+MONOCHROMATIC+HIGH-PERFORMANCE+WEB+SYSTEMS;%5B%2B%5D+WELCOME+TO+ADM04%2FND-OS+CONSOLE" alt="Typing SVG" />
   </a>
 </div>
 
----
+<hr opacity="0.2"/>
 
-<!-- Split Layout Section -->
+<!-- 01 // OVERVIEW & METRICS MATRIX -->
+<h3 align="left"><code>[01 // OVERVIEW &amp; SYSTEM METRICS]</code></h3>
+
 <table>
   <tr>
     <td valign="top" width="55%">
 
-# 👋 Hi, I'm **Arkadeb Mondal** <img src="https://i.ibb.co/FLs3HL9K/giphy.gif" height="32px" width="32px">
+# <code>ARKADEB MONDAL</code>
 
-👨‍💻 **UI/UX Designer** | 🌐 **Web Developer** | 🚀 **Freelancer**  
-📍 Based in **India**  
-🎨 Crafting smooth digital experiences & modern web interfaces.
+<p>
+  <code>[ROLE]</code> <b>Full-Stack Architect &amp; UI/UX Designer</b><br/>
+  <code>[LOC]</code> <b>Kolkata, India (IST / UTC +5:30)</b><br/>
+  <code>[SYS]</code> <b>Building scalable web architectures &amp; minimalist interface systems.</b>
+</p>
 
-> ### 💡 What I Do ?
-> * 🚀 Build responsive web & mobile apps with clean UI/UX architecture.
-> * ⚡ Work across the stack using modern JavaScript, React, Node.js & MongoDB.
-> * 🎯 Turn design concepts into fast, functional, and accessible code.
-> * 🛠️ Explore modern frameworks, cloud tools, and open-source innovations.
+> #### <code>[CAPABILITIES]</code>
+> * ⚡ **Full-Stack Development:** React, Next.js, Node.js, Express, TypeScript &amp; MongoDB.
+> * 🎨 **UI/UX &amp; Design Engineering:** Modern design systems, web motion, and accessible minimal interfaces.
+> * 🎯 **Performance Architecture:** Scalable web apps with optimized SSR, micro-frontends, and tight bundle sizes.
+> * 🛠️ **System Engineering:** Cloud integrations, Docker containers, and open-source utility tooling.
 
-> ### 🎯 Current Focus
-> * 💻 Advanced Full-Stack Architecture & Next.js Performance Optimization.
-> * 🎨 Modern Web Motion & Interactive UI Components.
+> #### <code>[CURRENT FOCUS]</code>
+> * 💻 Advanced Next.js App Router Architecture &amp; Server Actions.
+> * 🔴 Minimalist Monochromatic Design Systems (Nothing OS Aesthetic).
 
     </td>
     <td valign="top" width="45%">
 
 <div align="center">
-  <!-- Profile Summary Details Card (Rock-solid replacement for paused stats card) -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adm04&theme=tokyonight" width="100%" alt="GitHub Profile Summary" />
+  <!-- GitHub Profile Summary Card (Dark Theme) -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adm04&theme=dark" width="100%" alt="GitHub Profile Summary" />
   <br/><br/>
-  <!-- Live GitHub Streak Card -->
-  <img src="https://git-streak.vercel.app/?user=adm04&theme=tokyonight" width="100%" alt="GitHub Streak" />
+  <!-- Live GitHub Streak Card (Dark Theme) -->
+  <img src="https://git-streak.vercel.app/?user=adm04&theme=dark&background=0a0a0a&border=222222&stroke=d71921&ring=d71921&fire=d71921&currStreakNum=ffffff&sideNums=999999&sideLabels=666666&dates=666666" width="100%" alt="GitHub Streak" />
 </div>
 
     </td>
   </tr>
 </table>
 
----
+<hr opacity="0.2"/>
 
-<!-- Interactive Framer-Style 3D Globe & Global Presence -->
+<!-- GLOBAL PRESENCE MATRIX -->
+<h3 align="left"><code>[02 // GLOBAL MATRIX &amp; PRESENCE]</code></h3>
+
 <div align="center">
-  <img src="./assets/3d-globe.svg" width="100%" alt="Interactive 3D Globe" />
+  <img src="./assets/3d-globe.svg" width="100%" alt="Nothing OS 3D Global Matrix" />
 </div>
 
----
+<hr opacity="0.2"/>
 
-### 🛠️ Tech Stack & Skills (Categorized)
+<!-- 03 // TECH MATRIX -->
+<h3 align="left"><code>[03 // TECHNICAL MATRIX &amp; TOOLING]</code></h3>
 
-> ### 🎨 Frontend & Design
+> #### <code>[01] FRONTEND &amp; DESIGN SYSTEM</code>
 <p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-0A0A0A?style=for-the-badge&logo=html5&logoColor=E34F26" />
+  <img src="https://img.shields.io/badge/CSS3-0A0A0A?style=for-the-badge&logo=css3&logoColor=1572B6" />
+  <img src="https://img.shields.io/badge/JavaScript-0A0A0A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img src="https://img.shields.io/badge/TypeScript-0A0A0A?style=for-the-badge&logo=typescript&logoColor=3178C6" />
+  <img src="https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-0A0A0A?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/TailwindCSS-0A0A0A?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" />
+  <img src="https://img.shields.io/badge/Figma-0A0A0A?style=for-the-badge&logo=figma&logoColor=F24E1E" />
 </p>
 
-> ### ⚙️ Backend & Databases
+> #### <code>[02] BACKEND &amp; DATABASE ENGINE</code>
 <p align="left">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=nodedotjs&logoColor=339933" />
+  <img src="https://img.shields.io/badge/Express-0A0A0A?style=for-the-badge&logo=express&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/MongoDB-0A0A0A?style=for-the-badge&logo=mongodb&logoColor=47A248" />
+  <img src="https://img.shields.io/badge/Python-0A0A0A?style=for-the-badge&logo=python&logoColor=3776AB" />
+  <img src="https://img.shields.io/badge/PostgreSQL-0A0A0A?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
 </p>
 
-> ### 🧰 Tools & DevOps
+> #### <code>[03] SYSTEM INFRASTRUCTURE &amp; DEVOPS</code>
 <p align="left">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-0A0A0A?style=for-the-badge&logo=git&logoColor=F05032" />
+  <img src="https://img.shields.io/badge/GitHub-0A0A0A?style=for-the-badge&logo=github&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/VS_Code-0A0A0A?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" />
+  <img src="https://img.shields.io/badge/Docker-0A0A0A?style=for-the-badge&logo=docker&logoColor=2496ED" />
+  <img src="https://img.shields.io/badge/Postman-0A0A0A?style=for-the-badge&logo=postman&logoColor=FF6C37" />
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,figma,py,postgres,docker,git,github,vscode,tailwind,postman&perline=9" alt="Skills Icons" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,figma,py,postgres,docker,git,github,vscode,tailwind,postman&theme=dark&perline=9" alt="Skills Icons" />
 </p>
 
----
+<hr opacity="0.2"/>
 
-### 📊 Language Distribution & Commit Activity Graph
+<!-- 04 // METRICS & ACTIVITY GRAPH -->
+<h3 align="left"><code>[04 // ACTIVITY &amp; REPOSITORY METRICS]</code></h3>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adm04&theme=tokyonight" height="220" alt="Top Languages" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=adm04&theme=tokyonight&utcOffset=5.5" height="220" alt="Productive Time" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adm04&theme=dark" height="220" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=adm04&theme=dark&utcOffset=5.5" height="220" alt="Productive Time" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adm04&theme=tokyonight" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adm04&theme=react-dark&bg_color=0a0a0a&color=d71921&line=d71921&point=ffffff&area=true&title_color=ffffff&text_color=999999" width="100%" alt="Activity Graph" />
 </div>
 
----
+<hr opacity="0.2"/>
 
-### 🎮 Contribution Snake Game
+<!-- CONTRIBUTIONS & SNAKE -->
+<h3 align="left"><code>[05 // CONTRIBUTION MATRIX]</code></h3>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/adm04/adm04/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Graph" width="100%" />
 </div>
 
----
-
-### 🌐 3D Contribution Calendar
+<br/>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/adm04/adm04/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
 </div>
 
----
+<hr opacity="0.2"/>
 
-### 💬 Daily Dev Quotes
+<!-- DEV QUOTES & TERMINAL READOUT -->
+<h3 align="left"><code>[06 // TERMINAL CONSOLE &amp; QUOTE]</code></h3>
 
 <div align="center">
   <a href="https://github.com/adm04">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Dev Quote" />
   </a>
 </div>
 
----
+<hr opacity="0.2"/>
 
-### 📫 Connect With Me
+<!-- CONNECT WITH ME -->
+<h3 align="left"><code>[07 // CONNECT &amp; DISPATCH]</code></h3>
 
 <p align="center">
   <a href="https://github.com/adm04" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GITHUB-0A0A0A?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0A0A0A" alt="GitHub" />
   </a>
+  &nbsp;
   <a href="mailto:87759235+adm04@users.noreply.github.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/GMAIL-0A0A0A?style=for-the-badge&logo=gmail&logoColor=D71921&labelColor=0A0A0A" alt="Email" />
   </a>
+  &nbsp;
   <a href="https://linkedin.com/in/adm04" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LINKEDIN-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=0A0A0A" alt="LinkedIn" />
   </a>
 </p>
 
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,28,29&height=80&section=footer" width="100%" alt="Footer Wave" />
+  <p><code>. . . . . . . . . [ ND-OS // END OF READOUT ] . . . . . . . . .</code></p>
 </div>
