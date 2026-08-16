@@ -166,12 +166,14 @@
 <h3 align="left"><code>[06 // NOTHING OS MUSIC PLAYER &amp; CONSOLE]</code></h3>
 
 <div align="center">
-  <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank" title="Click to open 66-Track Interactive Music Player">
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWSIXPHRZ4SKc?utm_source=generator&theme=0" width="340" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <br/><br/>
+  <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank" title="Click to open Full Nothing OS Interactive Music Player">
     <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-player.svg?v=1" width="340" alt="Nothing OS Animated Music Player Widget" />
   </a>
   <br/><br/>
   <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank">
-    <img src="https://img.shields.io/badge/LAUNCH_INTERACTIVE_PLAYER-66_TRACKS_SPIDER--VERSE-0A0A0A?style=for-the-badge&logoWidth=0&labelColor=0A0A0A&color=D71921" alt="Launch Nothing Music Player" />
+    <img src="https://img.shields.io/badge/LAUNCH_SPOTIFY_PLAYER-FEELIN'_MYSELF-0A0A0A?style=for-the-badge&logoWidth=0&labelColor=0A0A0A&color=1DB954" alt="Launch Spotify Music Player" />
   </a>
 </div>
 
