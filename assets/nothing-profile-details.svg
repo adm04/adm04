@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="100%" height="100%">
+  <defs>
+    <!-- Dot Matrix Grid Pattern -->
+    <pattern id="profileDotGrid" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="1" fill="#222222"/>
+    </pattern>
+
+    <!-- Signal Red Curve Area Fill -->
+    <linearGradient id="areaFillGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D71921" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#D71921" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Signal Red LED Glow -->
+    <filter id="profileRedGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes curvePulse {
+      0%, 100% { opacity: 0.8; }
+      50% { opacity: 1; }
+    }
+    @keyframes nodeBlink {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+    .mono { font-family: 'Space Mono', 'Courier New', monospace; }
+    .curve-anim { animation: curvePulse 3s ease-in-out infinite; }
+    .node-anim { animation: nodeBlink 2s ease-in-out infinite; }
+  </style>
+
+  <!-- OLED Dark Background Container -->
+  <rect width="495" height="195" fill="#0A0A0A" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Dot Grid Pattern -->
+  <rect width="495" height="195" fill="url(#profileDotGrid)"/>
+
+  <!-- Header Title Bar -->
+  <g transform="translate(20, 28)">
+    <text x="0" y="0" class="mono" font-size="14" font-weight="bold" fill="#FFFFFF">adm04 (Arkadeb Mondal)</text>
+    <text x="320" y="-2" class="mono" font-size="9" fill="#666666">CONTRIBUTIONS LAST 12M</text>
+  </g>
+
+  <line x1="20" y1="38" x2="475" y2="38" stroke="#222222" stroke-width="1"/>
+
+  <!-- Left Side: Nothing OS Instrument Readouts -->
+  <g transform="translate(20, 56)" class="mono" font-size="10">
+    <!-- Item 1: Contributions -->
+    <g transform="translate(0, 0)">
+      <circle cx="5" cy="8" r="3" fill="#D71921" filter="url(#profileRedGlow)"/>
+      <text x="16" y="11" fill="#FFFFFF" font-weight="bold">119 Contributions</text>
+      <text x="135" y="11" fill="#666666">on GitHub</text>
+    </g>
+
+    <!-- Item 2: Repositories -->
+    <g transform="translate(0, 26)">
+      <circle cx="5" cy="8" r="3" fill="#E8E8E8"/>
+      <text x="16" y="11" fill="#E8E8E8">9 Public Repos</text>
+    </g>
+
+    <!-- Item 3: Joined -->
+    <g transform="translate(0, 52)">
+      <circle cx="5" cy="8" r="3" fill="#999999"/>
+      <text x="16" y="11" fill="#999999">Joined GitHub 5 years ago</text>
+    </g>
+
+    <!-- Item 4: Location -->
+    <g transform="translate(0, 78)">
+      <circle cx="5" cy="8" r="3" fill="#D71921"/>
+      <text x="16" y="11" fill="#E8E8E8">Kolkata, India (IST)</text>
+    </g>
+  </g>
+
+  <!-- Vertical Divider Line -->
+  <line x1="230" y1="46" x2="230" y2="175" stroke="#222222" stroke-width="1"/>
+
+  <!-- Right Side: Contribution Activity Area Chart -->
+  <g transform="translate(245, 50)">
+    <!-- Y-Axis Guide Lines & Markers -->
+    <g class="mono" font-size="8" fill="#555555" text-anchor="end">
+      <line x1="25" y1="10" x2="220" y2="10" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="2 4"/>
+      <text x="20" y="13">90</text>
+
+      <line x1="25" y1="35" x2="220" y2="35" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="2 4"/>
+      <text x="20" y="38">50</text>
+
+      <line x1="25" y1="60" x2="220" y2="60" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="2 4"/>
+      <text x="20" y="63">20</text>
+
+      <line x1="25" y1="85" x2="220" y2="85" stroke="#222222" stroke-width="1"/>
+      <text x="20" y="88">0</text>
+    </g>
+
+    <!-- Contribution Curve & Area Fill -->
+    <g class="curve-anim">
+      <!-- Area Under Curve -->
+      <path d="M 25,85 L 35,84 L 60,84 L 90,83 L 120,83 L 150,82 L 180,78 L 195,50 L 205,25 L 215,8 L 215,85 Z" fill="url(#areaFillGrad)"/>
+      <!-- Curve Line -->
+      <path d="M 25,85 L 35,84 L 60,84 L 90,83 L 120,83 L 150,82 L 180,78 L 195,50 L 205,25 L 215,8" fill="none" stroke="#D71921" stroke-width="2"/>
+    </g>
+
+    <!-- Peak Active Node -->
+    <circle cx="215" cy="8" r="3.5" fill="#FFFFFF" class="node-anim" filter="url(#profileRedGlow)"/>
+    <circle cx="215" cy="8" r="1.5" fill="#D71921"/>
+
+    <!-- X-Axis Timeline Labels -->
+    <g class="mono" font-size="8" fill="#555555" text-anchor="middle">
+      <text x="35" y="102">25/08</text>
+      <text x="80" y="102">25/12</text>
+      <text x="125" y="102">26/02</text>
+      <text x="170" y="102">26/06</text>
+      <text x="210" y="102" fill="#D71921" font-weight="bold">NOW</text>
+    </g>
+  </g>
+</svg>

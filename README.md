@@ -56,22 +56,22 @@
 <p><b><code>[CURRENT STATUS]</code></b></p>
 <p>🟢 <b>Immediately available, open to remote &amp; Kolkata-based roles.</b></p>
 
-    </td>
-    <td valign="top" width="45%">
+</td>
+<td valign="top" width="45%">
 
 <div align="center">
   <!-- Animated Hero Bio GIF -->
   <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/hero-bio.gif?v=1" width="100%" alt="Hero Bio Animation" />
   <br/><br/>
-  <!-- GitHub Profile Summary Card (Dark Theme) -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adm04&theme=dark" width="100%" alt="GitHub Profile Summary" />
+  <!-- Nothing OS Profile Details Card -->
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-profile-details.svg?v=1" width="100%" alt="Nothing OS Profile Summary" />
   <br/><br/>
   <!-- Animated Nothing OS GitHub Streak Card -->
   <img src="https://streak-stats.demolab.com/?user=adm04&background=0A0A0A&border=222222&stroke=D71921&ring=D71921&fire=D71921&currStreakNum=FFFFFF&sideNums=E8E8E8&sideLabels=999999&dates=666666&border_radius=0" width="100%" alt="Animated GitHub Streak - Nothing OS" />
 </div>
 
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
 
 <hr opacity="0.2"/>
