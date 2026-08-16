@@ -128,6 +128,12 @@
 <h3 align="left"><code>[04 // ACTIVITY &amp; REPOSITORY METRICS]</code></h3>
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-activity-overview.svg?v=1" width="100%" alt="Nothing OS Activity Overview Radar Chart" />
+</div>
+
+<br/>
+
+<div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adm04&theme=dark" height="220" alt="Top Languages" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=adm04&theme=dark&utcOffset=5.5" height="220" alt="Productive Time" />
 </div>
