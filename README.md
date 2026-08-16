@@ -60,8 +60,8 @@
     <td valign="top" width="45%">
 
 <div align="center">
-  <!-- Batman Animated GIF -->
-  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/batman.gif" width="100%" alt="Secretly Batman 🦇" />
+  <!-- Animated Hero Bio GIF -->
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/hero-bio.gif?v=1" width="100%" alt="Hero Bio Animation" />
   <br/><br/>
   <!-- GitHub Profile Summary Card (Dark Theme) -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adm04&theme=dark" width="100%" alt="GitHub Profile Summary" />
