@@ -134,8 +134,9 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adm04&theme=dark" height="220" alt="Top Languages" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=adm04&theme=dark&utcOffset=5.5" height="220" alt="Productive Time" />
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-languages.svg?v=1" width="48%" alt="Nothing OS Top Languages" />
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-productive-time.svg?v=1" width="48%" alt="Nothing OS Productive Hours" />
 </div>
 
 <br/>
