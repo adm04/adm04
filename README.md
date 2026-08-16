@@ -38,25 +38,29 @@
 # <code>ARKADEB MONDAL</code>
 
 <p>
-  <code>[ROLE]</code> <b>Full-Stack Architect &amp; UI/UX Designer</b><br/>
+  <code>[ROLE]</code> <b>UX/UI Designer</b><br/>
   <code>[LOC]</code> <b>Kolkata, India (IST / UTC +5:30)</b><br/>
-  <code>[SYS]</code> <b>Building scalable web architectures &amp; minimalist interface systems.</b>
+  <code>[SYS]</code> <b>Open to work — actively looking for UX/UI roles, remote-first.</b><br/>
+  <code>[CLASSIFIED]</code> <b>Secretly Batman. 🦇</b>
 </p>
 
 > #### <code>[CAPABILITIES]</code>
-> * ⚡ **Full-Stack Development:** React, Next.js, Node.js, Express, TypeScript &amp; MongoDB.
-> * 🎨 **UI/UX &amp; Design Engineering:** Modern design systems, web motion, and accessible minimal interfaces.
-> * 🎯 **Performance Architecture:** Scalable web apps with optimized SSR, micro-frontends, and tight bundle sizes.
-> * 🛠️ **System Engineering:** Cloud integrations, Docker containers, and open-source utility tooling.
+> * 🎨 **UI/UX Design:** Research to high-fidelity prototypes, Figma &amp; Adobe XD.
+> * 📊 **Data-Driven Design:** MS Clarity heatmaps informing layout &amp; conversion decisions.
+> * 🧩 **Design Systems:** Scalable components, dev-ready handoff via Figma Dev Mode.
+> * 🏦 **Domain Depth:** 3+ years across fintech, edtech &amp; e-commerce platforms.
+> * ⚡ **Vibe Coder:** AI-assisted builds (Claude, Antigravity) for prototypes &amp; personal projects.
 
-> #### <code>[CURRENT FOCUS]</code>
-> * 💻 Advanced Next.js App Router Architecture &amp; Server Actions.
-> * 🔴 Minimalist Monochromatic Design Systems (Nothing OS Aesthetic).
+> #### <code>[CURRENT STATUS]</code>
+> * 🟢 **Immediately available, open to remote &amp; Kolkata-based roles.**
 
     </td>
     <td valign="top" width="45%">
 
 <div align="center">
+  <!-- Batman Animated GIF -->
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/batman.gif" width="100%" alt="Secretly Batman 🦇" />
+  <br/><br/>
   <!-- GitHub Profile Summary Card (Dark Theme) -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adm04&theme=dark" width="100%" alt="GitHub Profile Summary" />
   <br/><br/>
