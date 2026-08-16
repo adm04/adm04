@@ -44,15 +44,17 @@
   <code>[CLASSIFIED]</code> <b>Secretly Batman. 🦇</b>
 </p>
 
-> #### <code>[CAPABILITIES]</code>
-> * 🎨 **UI/UX Design:** Research to high-fidelity prototypes, Figma &amp; Adobe XD.
-> * 📊 **Data-Driven Design:** MS Clarity heatmaps informing layout &amp; conversion decisions.
-> * 🧩 **Design Systems:** Scalable components, dev-ready handoff via Figma Dev Mode.
-> * 🏦 **Domain Depth:** 3+ years across fintech, edtech &amp; e-commerce platforms.
-> * ⚡ **Vibe Coder:** AI-assisted builds (Claude, Antigravity) for prototypes &amp; personal projects.
+<p><b><code>[CAPABILITIES]</code></b></p>
+<ul>
+  <li>🎨 <b>UI/UX Design:</b> Research to high-fidelity prototypes, Figma &amp; Adobe XD.</li>
+  <li>📊 <b>Data-Driven Design:</b> MS Clarity heatmaps informing layout &amp; conversion decisions.</li>
+  <li>🧩 <b>Design Systems:</b> Scalable components, dev-ready handoff via Figma Dev Mode.</li>
+  <li>🏦 <b>Domain Depth:</b> 3+ years across fintech, edtech &amp; e-commerce platforms.</li>
+  <li>⚡ <b>Vibe Coder:</b> AI-assisted builds (Claude, Antigravity) for prototypes &amp; personal projects.</li>
+</ul>
 
-> #### <code>[CURRENT STATUS]</code>
-> * 🟢 **Immediately available, open to remote &amp; Kolkata-based roles.**
+<p><b><code>[CURRENT STATUS]</code></b></p>
+<p>🟢 <b>Immediately available, open to remote &amp; Kolkata-based roles.</b></p>
 
     </td>
     <td valign="top" width="45%">
