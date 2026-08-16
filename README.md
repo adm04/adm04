@@ -60,8 +60,8 @@
   <!-- GitHub Profile Summary Card (Dark Theme) -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adm04&theme=dark" width="100%" alt="GitHub Profile Summary" />
   <br/><br/>
-  <!-- Live GitHub Streak Card (Dark Theme) -->
-  <img src="https://git-streak.vercel.app/?user=adm04&theme=dark&background=0a0a0a&border=222222&stroke=d71921&ring=d71921&fire=d71921&currStreakNum=ffffff&sideNums=999999&sideLabels=666666&dates=666666" width="100%" alt="GitHub Streak" />
+  <!-- Animated Nothing OS GitHub Streak Card -->
+  <img src="https://streak-stats.demolab.com/?user=adm04&background=0A0A0A&border=222222&stroke=D71921&ring=D71921&fire=D71921&currStreakNum=FFFFFF&sideNums=E8E8E8&sideLabels=999999&dates=666666&border_radius=0" width="100%" alt="Animated GitHub Streak - Nothing OS" />
 </div>
 
     </td>
