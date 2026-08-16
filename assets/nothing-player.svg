@@ -26,19 +26,15 @@
     }
     @keyframes progressPulse {
       0% { x2: 120; }
-      50% { x2: 240; }
+      50% { x2: 280; }
       100% { x2: 120; }
-    }
-    @keyframes textBlink {
-      0%, 100% { opacity: 0.9; }
-      50% { opacity: 1; }
     }
     .disc-spin {
       transform-origin: 200px 215px;
       animation: discSpin 9s linear infinite;
     }
     .progress-bar-anim {
-      animation: progressPulse 12s linear infinite;
+      animation: progressPulse 10s linear infinite;
     }
     .dim { fill: #6b6b6b; }
     .dimS { stroke: #6b6b6b; }
@@ -54,24 +50,24 @@
   <!-- Top System Header -->
   <path d="M 30,32 L 20,40 L 30,48" fill="none" stroke="#eaeaea" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="200" y="36" text-anchor="middle" class="dim mono" font-size="10">PLAYING FROM</text>
-  <text x="200" y="50" text-anchor="middle" class="bright mono" font-size="11" font-weight="bold">YOUTUBE MUSIC // SPIDER-VERSE</text>
+  <text x="200" y="50" text-anchor="middle" class="bright mono" font-size="11" font-weight="bold">SPOTIFY // THE BATMAN</text>
 
-  <circle cx="372" cy="30" r="1.6" class="bright"/>
-  <circle cx="372" cy="40" r="1.6" class="bright"/>
-  <circle cx="372" cy="50" r="1.6" class="bright"/>
+  <circle cx="372" cy="30" r="1.6" fill="#1DB954"/>
+  <circle cx="372" cy="40" r="1.6" fill="#1DB954"/>
+  <circle cx="372" cy="50" r="1.6" fill="#1DB954"/>
 
   <text x="30" y="90" class="dim mono" font-size="9">02:17/03:32</text>
   <text x="125" y="90" fill="#D71921" class="mono" font-size="9" font-weight="bold">1x [LIVE]</text>
 
   <circle cx="352" cy="98" r="11" fill="none" class="line" stroke-width="1"/>
-  <polygon points="348,93 348,103 356,98" fill="#999999"/>
+  <polygon points="348,93 348,103 356,98" fill="#1DB954"/>
 
   <!-- Spinning Vinyl Disc Group -->
   <g class="disc-spin">
     <circle cx="200" cy="215" r="130" fill="#141414" stroke="#242424" stroke-width="1" stroke-dasharray="1 4"/>
     <line x1="140" y1="155" x2="260" y2="275" class="line" stroke-width="1"/>
-    <text class="dim mono" font-size="10"><textPath href="#arcTop" startOffset="6%">POST MALONE, SWAE LEE</textPath></text>
-    <text class="dim mono" font-size="10"><textPath href="#arcBottom" startOffset="8%">SPIDER-VERSE SOUNDTRACK</textPath></text>
+    <text class="dim mono" font-size="10"><textPath href="#arcTop" startOffset="6%">MICHAEL GIACCHINO</textPath></text>
+    <text class="dim mono" font-size="10"><textPath href="#arcBottom" startOffset="8%">THE BATMAN SCORE</textPath></text>
     <circle cx="200" cy="215" r="33" fill="#050505" stroke="#242424" stroke-width="1"/>
     <circle cx="200" cy="215" r="33" fill="none" stroke="#1a1a1a" stroke-width="6" stroke-dasharray="2 3"/>
     <circle cx="200" cy="215" r="5" fill="#0a0a0a" stroke="#D71921" stroke-width="1.5"/>
@@ -92,7 +88,7 @@
 
   <!-- Title Pill Box -->
   <rect x="98" y="392" width="204" height="36" rx="18" fill="#111111" stroke="#333333" stroke-width="1"/>
-  <text id="trackTitle" x="200" y="415" text-anchor="middle" class="bright mono" font-size="12" font-weight="bold" letter-spacing="2">SUNFLOWER</text>
+  <text id="trackTitle" x="200" y="415" text-anchor="middle" class="bright mono" font-size="12" font-weight="bold" letter-spacing="2">THE BATMAN</text>
 
   <!-- Right Favorite Icon -->
   <circle cx="340" cy="410" r="20" fill="none" class="line" stroke-width="1"/>

@@ -166,12 +166,12 @@
 <h3 align="left"><code>[06 // BATCAVE SOUND CONSOLE]</code></h3>
 
 <div align="center">
-  <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank" title="Click to open Full Nothing OS Interactive Music Player">
-    <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-player.svg?v=1" width="340" alt="Nothing OS Animated Music Player Widget" />
+  <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank" title="Click to open The Batman (2022) 29-Track Score Player">
+    <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-player.svg?v=2" width="340" alt="Nothing OS Animated Music Player Widget" />
   </a>
   <br/><br/>
   <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank">
-    <img src="https://img.shields.io/badge/LAUNCH_SPOTIFY_PLAYER-FEELIN'_MYSELF-0A0A0A?style=for-the-badge&logoWidth=0&labelColor=0A0A0A&color=1DB954" alt="Launch Spotify Music Player" />
+    <img src="https://img.shields.io/badge/LAUNCH_BATMAN_SCORE-29_TRACKS_MICHAEL_GIACCHINO-0A0A0A?style=for-the-badge&logoWidth=0&labelColor=0A0A0A&color=D71921" alt="Launch The Batman Score Player" />
   </a>
 </div>
 
