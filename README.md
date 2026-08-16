@@ -1,6 +1,6 @@
 <!-- ND-OS // SYSTEM HEADER BANNER -->
 <p align="center">
-  <img src="assets/nothing-banner.svg" width="100%" alt="Arkadeb Mondal - Nothing OS Header Banner"/>
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-banner.svg?v=3" width="100%" alt="Arkadeb Mondal - Nothing OS Header Banner"/>
 </p>
 
 <!-- INSTRUMENT BADGES ROW -->
@@ -74,7 +74,7 @@
 <h3 align="left"><code>[02 // GLOBAL MATRIX &amp; PRESENCE]</code></h3>
 
 <div align="center">
-  <img src="./assets/3d-globe.svg" width="100%" alt="Nothing OS 3D Global Matrix" />
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/3d-globe.svg?v=3" width="100%" alt="Nothing OS 3D Global Matrix" />
 </div>
 
 <hr opacity="0.2"/>
@@ -144,7 +144,7 @@
 <br/>
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Nothing OS 3D Contribution Matrix" width="100%" />
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/profile-3d-contrib/profile-night-rainbow.svg?v=3" alt="Nothing OS 3D Contribution Matrix" width="100%" />
 </div>
 
 <hr opacity="0.2"/>
