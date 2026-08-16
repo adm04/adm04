@@ -149,14 +149,18 @@
 
 <hr opacity="0.2"/>
 
-<!-- DEV QUOTES & TERMINAL READOUT -->
+<!-- NOTHING OS MUSIC PLAYER & DEV QUOTE -->
 <h3 align="left"><code>[06 // NOTHING OS MUSIC PLAYER &amp; CONSOLE]</code></h3>
 
-<p align="center">
-  <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank">
-    <img src="https://img.shields.io/badge/LAUNCH_NOTHING_MUSIC_PLAYER-66_TRACKS_SPIDER--VERSE-0A0A0A?style=for-the-badge&logoWidth=0&labelColor=0A0A0A&color=D71921" alt="Launch Nothing Music Player" />
+<div align="center">
+  <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank" title="Click to open 66-Track Interactive Music Player">
+    <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-player.svg?v=1" width="340" alt="Nothing OS Animated Music Player Widget" />
   </a>
-</p>
+  <br/><br/>
+  <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank">
+    <img src="https://img.shields.io/badge/LAUNCH_INTERACTIVE_PLAYER-66_TRACKS_SPIDER--VERSE-0A0A0A?style=for-the-badge&logoWidth=0&labelColor=0A0A0A&color=D71921" alt="Launch Nothing Music Player" />
+  </a>
+</div>
 
 <div align="center">
   <a href="https://github.com/adm04">
