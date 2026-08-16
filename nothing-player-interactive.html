@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Nothing OS Music Player - Spider-Verse</title>
 <style>
-  html,body{margin:0;height:100%;display:flex;align-items:center;justify-content:center;background:#000;overflow:hidden;}
+  html,body{margin:0;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#000;font-family:monospace;padding:20px;box-sizing:border-box;}
   #wrap{width:320px;cursor:pointer;position:relative;}
   #wrap svg{width:100%;height:auto;display:block;}
   .disc-group{ transform-origin:200px 215px; animation:spin 9s linear infinite; animation-play-state:paused; }
@@ -100,7 +100,12 @@
 </div>
 
 <!-- Hidden YouTube Audio Player Container -->
-<div id="yt-player" style="position:absolute; width:1px; height:1px; opacity:0; pointer-events:none;"></div>
+
+<!-- Nothing OS YouTube Player Screen -->
+<div id="yt-screen" style="margin-top: 16px; width: 320px; height: 180px; border-radius: 16px; overflow: hidden; border: 1px solid #222222; background: #0a0a0a; box-shadow: 0 4px 20px rgba(0,0,0,0.8);">
+  <div id="yt-player"></div>
+</div>
+
 
 <script src="https://www.youtube.com/iframe_api"></script>
 <script>
@@ -277,8 +282,8 @@
   // YouTube IFrame API Callback
   window.onYouTubeIframeAPIReady = function() {
     ytPlayer = new YT.Player('yt-player', {
-      height: '1',
-      width: '1',
+      height: '180',
+      width: '320',
       videoId: tracks[0].youtubeId,
       playerVars: {
         autoplay: 0,
