@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/banner.png" width="100%" alt="Arkadeb Mondal Banner"/>
 </p>
 
-<!-- Top Badges Row (Inspired by Balram-1) -->
+<!-- Top Badges Row -->
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=adm04">
     <img src="https://komarev.com/ghpvc/?username=adm04&label=Profile%20Views&color=61afef&style=for-the-badge" alt="Profile Views" />
@@ -28,10 +28,10 @@
 
 ---
 
-<!-- Split Layout Section (Inspired by Chamidu0423) -->
+<!-- Split Layout Section -->
 <table>
   <tr>
-    <td valign="top" width="58%">
+    <td valign="top" width="55%">
 
 # 👋 Hi, I'm **Arkadeb Mondal** <img src="https://i.ibb.co/FLs3HL9K/giphy.gif" height="32px" width="32px">
 
@@ -50,12 +50,14 @@
 > * 🎨 Modern Web Motion & Interactive UI Components.
 
     </td>
-    <td valign="top" width="42%">
+    <td valign="top" width="45%">
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=adm04&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="100%" alt="GitHub Stats" />
+  <!-- Profile Summary Details Card (Rock-solid replacement for paused stats card) -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adm04&theme=tokyonight" width="100%" alt="GitHub Profile Summary" />
   <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adm04&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" />
+  <!-- Live GitHub Streak Card -->
+  <img src="https://git-streak.vercel.app/?user=adm04&theme=tokyonight" width="100%" alt="GitHub Streak" />
 </div>
 
     </td>
@@ -102,11 +104,17 @@
 
 ---
 
-### 📊 Most Used Languages & GitHub Trophies
+### 📊 Language Distribution & Commit Activity Graph
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adm04&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170" alt="Top Languages" />
-  <img src="https://github-profile-trophy.vercel.app/?username=adm04&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15" height="170" alt="Trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adm04&theme=tokyonight" height="220" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=adm04&theme=tokyonight&utcOffset=5.5" height="220" alt="Productive Time" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adm04&theme=tokyonight" width="100%" alt="Activity Graph" />
 </div>
 
 ---

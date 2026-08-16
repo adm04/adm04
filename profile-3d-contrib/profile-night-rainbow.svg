@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="260" viewBox="0 0 850 260">
+  <rect width="100%" height="100%" fill="#1a1b26" rx="12"/>
+  <text x="50%" y="45" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="22" font-weight="700" fill="#7aa2f7" text-anchor="middle">
+    3D Contribution Calendar — @adm04
+  </text>
+  <text x="50%" y="75" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="14" fill="#a9b1d6" text-anchor="middle">
+    ⚡ Automated Daily 3D Render via GitHub Actions
+  </text>
+  
+  <g transform="translate(140, 100)">
+    <!-- Isometric 3D Blocks Grid Representation -->
+    <path d="M280 10 L500 100 L280 190 L60 100 Z" fill="#24283b" stroke="#414868" stroke-width="1.5"/>
+    
+    <!-- Rendered 3D Contribution Pillars -->
+    <g transform="translate(180, 40)">
+      <polygon points="30,20 60,35 60,65 30,50" fill="#bb9af7"/>
+      <polygon points="30,20 60,35 30,35 0,20" fill="#d0b9f9"/>
+      <polygon points="0,20 30,35 30,65 0,50" fill="#7dcfff"/>
+    </g>
+    <g transform="translate(240, 60)">
+      <polygon points="30,10 60,25 60,75 30,60" fill="#7aa2f7"/>
+      <polygon points="30,10 60,25 30,25 0,10" fill="#89ddff"/>
+      <polygon points="0,10 30,25 30,75 0,60" fill="#2ac3de"/>
+    </g>
+    <g transform="translate(210, 80)">
+      <polygon points="30,0 60,15 60,85 30,70" fill="#73daca"/>
+      <polygon points="30,0 60,15 30,15 0,0" fill="#b4f9f8"/>
+      <polygon points="0,0 30,15 30,85 0,70" fill="#41a6b5"/>
+    </g>
+    <g transform="translate(270, 40)">
+      <polygon points="30,15 60,30 60,75 30,60" fill="#9ece6a"/>
+      <polygon points="30,15 60,30 30,30 0,15" fill="#c3e88d"/>
+      <polygon points="0,15 30,30 30,75 0,60" fill="#73daca"/>
+    </g>
+    <g transform="translate(300, 70)">
+      <polygon points="30,5 60,20 60,80 30,65" fill="#e0af68"/>
+      <polygon points="30,5 60,20 30,20 0,5" fill="#ffc777"/>
+      <polygon points="0,5 30,20 30,80 0,65" fill="#ff9e64"/>
+    </g>
+  </g>
+  
+  <text x="50%" y="225" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#565f89" text-anchor="middle">
+    Run '.github/workflows/profile-3d.yml' under Actions tab to refresh live isometric stats
+  </text>
+</svg>
