@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html,body{margin:0;height:100%;display:flex;align-items:center;justify-content:center;background:#000;}
+  #wrap{width:320px;cursor:pointer;}
+  #wrap svg{width:100%;height:auto;display:block;}
+  .disc-group{ transform-origin:200px 215px; animation:spin 9s linear infinite; animation-play-state:paused; }
+  .disc-group.spinning{ animation-play-state:running; }
+  @keyframes spin{ from{transform:rotate(0deg);} to{transform:rotate(360deg);} }
+  .dim{fill:#6b6b6b;} .dimS{stroke:#6b6b6b;}
+  .line{stroke:#2a2a2a;}
+  .bright{fill:#eaeaea;} .brightS{stroke:#eaeaea;}
+  .mono{letter-spacing:1.5px;}
+  #prevBtn, #nextBtn{cursor:pointer;}
+  text{font-family:'Courier New',monospace;}
+</style>
+</head>
+<body>
+<div id="wrap" title="Click to play / pause">
+<svg viewBox="0 0 400 580" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="arcTop" d="M 92,215 A 108,108 0 0 1 288,215" />
+    <path id="arcBottom" d="M 300,250 A 118,118 0 0 1 165,331" />
+  </defs>
+
+  <rect x="0" y="0" width="400" height="580" rx="26" fill="#0a0a0a"/>
+
+  <path d="M 30,32 L 20,40 L 30,48" fill="none" stroke="#eaeaea" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="36" text-anchor="middle" class="dim mono" font-size="10">Playing from</text>
+  <text x="200" y="50" text-anchor="middle" class="bright mono" font-size="11">YouTube Music</text>
+  <circle cx="372" cy="30" r="1.6" class="bright"/>
+  <circle cx="372" cy="40" r="1.6" class="bright"/>
+  <circle cx="372" cy="50" r="1.6" class="bright"/>
+
+  <text x="30" y="90" class="dim mono" font-size="9">02:17/03:32</text>
+  <text x="118" y="90" fill="#c0392b" font-size="9">1x</text>
+
+  <circle cx="352" cy="98" r="11" fill="none" class="line" stroke-width="1"/>
+  <polygon points="348,93 348,103 356,98" class="dim"/>
+
+  <g class="disc-group" id="disc">
+    <circle cx="200" cy="215" r="130" fill="#141414" stroke="#242424" stroke-width="1" stroke-dasharray="1 4"/>
+    <line x1="140" y1="155" x2="260" y2="275" class="line" stroke-width="1"/>
+    <text class="dim mono" font-size="10"><textPath id="artistPath" href="#arcTop" startOffset="6%">POST MALONE</textPath></text>
+    <text class="dim mono" font-size="10"><textPath id="albumPath" href="#arcBottom" startOffset="8%">SPIDER-VERSE</textPath></text>
+    <circle cx="200" cy="215" r="33" fill="#050505" stroke="#242424" stroke-width="1"/>
+    <circle cx="200" cy="215" r="33" fill="none" stroke="#1a1a1a" stroke-width="6" stroke-dasharray="2 3"/>
+    <circle cx="200" cy="215" r="5" fill="#0a0a0a" stroke="#555" stroke-width="1"/>
+  </g>
+
+  <path d="M 332,325 A 130,130 0 0 0 300,345" fill="none" stroke="#5a5a5a" stroke-width="3" stroke-linecap="round"/>
+
+  <circle cx="42" cy="350" r="7" fill="#c0392b"/>
+
+  <circle cx="60" cy="410" r="20" fill="none" class="line" stroke-width="1"/>
+  <line x1="52" y1="404" x2="68" y2="404" class="dimS" stroke-width="1.4"/>
+  <line x1="52" y1="410" x2="68" y2="410" class="dimS" stroke-width="1.4"/>
+  <line x1="52" y1="416" x2="62" y2="416" class="dimS" stroke-width="1.4"/>
+
+  <rect x="98" y="392" width="204" height="36" rx="18" fill="none" class="line" stroke-width="1"/>
+  <text id="trackTitle" x="200" y="415" text-anchor="middle" class="bright mono" font-size="13" letter-spacing="2">SUNFLOWER</text>
+
+  <circle cx="340" cy="410" r="20" fill="none" class="line" stroke-width="1"/>
+  <polygon points="340,401 343,407 350,408 345,412 346,419 340,416 334,419 335,412 330,408 337,407" class="dim"/>
+
+  <circle cx="82" cy="474" r="27" fill="#161616" id="prevBtn"/>
+  <rect x="70" y="464" width="2.4" height="20" class="bright"/>
+  <polygon points="90,464 90,484 76,474" class="bright"/>
+
+  <rect x="140" y="447" width="120" height="54" rx="27" fill="#eeeeee" id="playBtn"/>
+  <polygon id="playIcon" points="192,463 192,485 214,474" fill="#0a0a0a"/>
+
+  <circle cx="318" cy="474" r="27" fill="#161616" id="nextBtn"/>
+  <rect x="326.6" y="464" width="2.4" height="20" class="bright"/>
+  <polygon points="310,464 310,484 324,474" class="bright"/>
+
+  <polygon points="28,516 34,512 34,524 28,520" class="dim"/>
+  <path d="M 36,514 A 6,6 0 0 1 36,522" fill="none" class="dimS" stroke-width="1.2"/>
+  <line x1="48" y1="518" x2="352" y2="518" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="48" y1="518" x2="200" y2="518" stroke="#c0392b" stroke-width="2"/>
+  <circle cx="200" cy="518" r="5" class="bright"/>
+  <polygon points="372,512 366,516 366,520 372,524" class="bright"/>
+  <path d="M 364,514 A 6,6 0 0 1 364,522" fill="none" class="brightS" stroke-width="1.2"/>
+
+  <line x1="66" y1="550" x2="94" y2="550" class="dimS" stroke-width="1.4"/>
+  <line x1="66" y1="556" x2="94" y2="556" class="dimS" stroke-width="1.4"/>
+  <line x1="66" y1="562" x2="86" y2="562" class="dimS" stroke-width="1.4"/>
+
+  <path d="M 180,552 L 220,552 M 214,546 L 220,552 L 214,558" fill="none" class="dimS" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 220,562 L 180,562 M 186,556 L 180,562 L 186,568" fill="none" class="dimS" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M 306,556 A 14,10 0 1 1 320,566" fill="none" class="dimS" stroke-width="1.4"/>
+  <polygon points="318,559 322,566 314,567" class="dim"/>
+
+  <rect x="160" y="588" width="80" height="4" rx="2" fill="#2a2a2a"/>
+</svg>
+</div>
+
+<script>
+  const wrap = document.getElementById('wrap');
+  const disc = document.getElementById('disc');
+  const playIcon = document.getElementById('playIcon');
+  let playing = false;
+
+  function setPlaying(state){
+    playing = state;
+    disc.classList.toggle('spinning', playing);
+    // swap triangle play icon for a pause icon (two bars) when playing
+    if(playing){
+      playIcon.setAttribute('points','188,463 188,485 196,485 196,463');
+      // second bar drawn via a sibling rect appended once
+      if(!document.getElementById('pauseBar2')){
+        const ns = 'http://www.w3.org/2000/svg';
+        const bar = document.createElementNS(ns,'rect');
+        bar.setAttribute('id','pauseBar2');
+        bar.setAttribute('x','206'); bar.setAttribute('y','463');
+        bar.setAttribute('width','8'); bar.setAttribute('height','22');
+        bar.setAttribute('fill','#0a0a0a');
+        playIcon.parentNode.appendChild(bar);
+      }
+    } else {
+      playIcon.setAttribute('points','192,463 192,485 214,474');
+      const bar2 = document.getElementById('pauseBar2');
+      if(bar2) bar2.remove();
+    }
+  }
+
+  wrap.addEventListener('click', () => setPlaying(!playing));
+
+  const tracks = [
+    { title: 'Calling', artist: 'Metro Boomin, NAV, A Boogie Wit Da Hoodie, Swae Lee' },
+    { title: 'Self Love', artist: 'Metro Boomin, Coi Leray' },
+    { title: 'Am I Dreaming', artist: 'Metro Boomin, A$AP Rocky, Roisee' },
+    { title: 'Annihilate', artist: 'Metro Boomin, Swae Lee, Lil Wayne, Offset' },
+    { title: 'All The Way Live', artist: 'Metro Boomin, Future, Lil Wayne' },
+    { title: 'Danger (Spider)', artist: 'Offset, JID' },
+    { title: 'Hummingbird', artist: 'Metro Boomin, James Blake' },
+    { title: 'Link Up (Spider-Verse Remix)', artist: 'Metro Boomin, Don Toliver, Wizkid' },
+    { title: 'Home', artist: 'Metro Boomin, Don Toliver, Lil Uzi Vert' },
+    { title: 'Silk and Cologne', artist: 'EI8HT, Offset' },
+    { title: 'Nonviolent Communication', artist: 'Metro Boomin, James Blake, A$AP Rocky, 21 Savage' },
+    { title: 'Givin\' Up', artist: 'Don Toliver, 21 Savage, 2 Chainz' },
+    { title: 'Nas Morales', artist: 'Metro Boomin, Nas' },
+    { title: 'Mona Lisa', artist: 'Dominic Fike' },
+    { title: 'Across the Spider-Verse (Intro)', artist: 'Daniel Pemberton' },
+    { title: 'Spider-Woman (Gwen Stacy)', artist: 'Daniel Pemberton' },
+    { title: 'Vulture Meets Culture', artist: 'Daniel Pemberton' },
+    { title: 'Spider-Man 2099 (Miguel O\'Hara)', artist: 'Daniel Pemberton' },
+    { title: 'Guggenheim Assemble', artist: 'Daniel Pemberton' },
+    { title: 'The Right to Remain Silent', artist: 'Daniel Pemberton' },
+    { title: 'Across the Titles', artist: 'Daniel Pemberton' },
+    { title: 'My Name Is... Miles Morales', artist: 'Daniel Pemberton' },
+    { title: 'Back Where It All Started', artist: 'Daniel Pemberton' },
+    { title: 'Spot Holes 1', artist: 'Daniel Pemberton' },
+    { title: 'To My Son', artist: 'Daniel Pemberton' },
+    { title: 'Miles Sketchbook', artist: 'Daniel Pemberton' },
+    { title: 'Under the Clocktower', artist: 'Daniel Pemberton' },
+    { title: 'Rio and Miles', artist: 'Daniel Pemberton' },
+    { title: 'Creation of The Spot', artist: 'Daniel Pemberton' },
+    { title: 'Spider-Man India (Pavitr Prabhakar)', artist: 'Daniel Pemberton' },
+    { title: 'Mumbattan Madness', artist: 'Daniel Pemberton' },
+    { title: 'Spider-Punk (Hobie Brown)', artist: 'Daniel Pemberton' },
+    { title: 'Spot Holes 2', artist: 'Daniel Pemberton' },
+    { title: 'Indian Teamwork', artist: 'Daniel Pemberton' },
+    { title: 'Welcome to Nueva York (Earth-928)', artist: 'Daniel Pemberton' },
+    { title: 'Spider Society', artist: 'Daniel Pemberton' },
+    { title: '2099 Lab', artist: 'Daniel Pemberton' },
+    { title: 'Peter and Mayday Parker', artist: 'Daniel Pemberton' },
+    { title: 'Canon Event', artist: 'Daniel Pemberton' },
+    { title: 'Stop Spider-Man', artist: 'Daniel Pemberton' },
+    { title: 'Hold the Baby', artist: 'Daniel Pemberton' },
+    { title: 'Nueva York Train Chase', artist: 'Daniel Pemberton' },
+    { title: 'The Go Home Machine', artist: 'Daniel Pemberton' },
+    { title: 'Falling Apart', artist: 'Daniel Pemberton' },
+    { title: 'I Beat Them All', artist: 'Daniel Pemberton' },
+    { title: 'The Anomaly', artist: 'Daniel Pemberton' },
+    { title: 'Five Months', artist: 'Daniel Pemberton' },
+    { title: 'Across the Spider-Verse (Start a Band)', artist: 'Daniel Pemberton' },
+    { title: 'What\'s Up Danger', artist: 'Blackway, Black Caviar' },
+    { title: 'Sunflower', artist: 'Post Malone, Swae Lee' },
+    { title: 'Way Up', artist: 'Jaden' },
+    { title: 'Familia', artist: 'Nicki Minaj, Anuel AA, Bantu' },
+    { title: 'Invincible', artist: 'Aminé' },
+    { title: 'Start a Riot', artist: 'DUCKWRTH, Shaboozey' },
+    { title: 'Hide', artist: 'Juice WRLD, Seezyn' },
+    { title: 'Memories', artist: 'Thutmose' },
+    { title: 'Save The Day', artist: 'Ski Mask The Slump God, Jacquees, Coi Leray, LouGotCash' },
+    { title: 'Let Go', artist: 'Beau Young Prince' },
+    { title: 'Scared of the Dark', artist: 'Lil Wayne, Ty Dolla $ign, Special Guest XXL' },
+    { title: 'Elevate', artist: 'DJ Khalil, Denzel Curry, Cordae, SwaVay, Trevor Rich' },
+    { title: 'Home', artist: 'Vince Staples' },
+    { title: 'Only One Spider-Man', artist: 'Daniel Pemberton' },
+    { title: 'The Amazing Spider-Man', artist: 'Daniel Pemberton' },
+    { title: 'Destiny', artist: 'Daniel Pemberton' },
+    { title: 'Miles Morales Returns', artist: 'Daniel Pemberton' },
+    { title: 'Spider-Man Loves You', artist: 'Daniel Pemberton' }
+  ];
+
+  const trackTitle = document.getElementById('trackTitle');
+  const artistPath = document.getElementById('artistPath');
+  let trackIndex = 0;
+
+  function renderTrack(){
+    const t = tracks[trackIndex];
+    trackTitle.textContent = t.title.toUpperCase();
+    artistPath.textContent = t.artist.toUpperCase();
+  }
+
+  function changeTrack(delta){
+    trackIndex = (trackIndex + delta + tracks.length) % tracks.length;
+    renderTrack();
+    setPlaying(true);
+  }
+
+  document.getElementById('nextBtn').addEventListener('click', (e) => {
+    e.stopPropagation();
+    changeTrack(1);
+  });
+  document.getElementById('prevBtn').addEventListener('click', (e) => {
+    e.stopPropagation();
+    changeTrack(-1);
+  });
+
+  renderTrack();
+</script>
+</body>
+</html>
