@@ -150,7 +150,13 @@
 <hr opacity="0.2"/>
 
 <!-- DEV QUOTES & TERMINAL READOUT -->
-<h3 align="left"><code>[06 // TERMINAL CONSOLE &amp; QUOTE]</code></h3>
+<h3 align="left"><code>[06 // NOTHING OS MUSIC PLAYER &amp; CONSOLE]</code></h3>
+
+<p align="center">
+  <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank">
+    <img src="https://img.shields.io/badge/LAUNCH_NOTHING_MUSIC_PLAYER-66_TRACKS_SPIDER--VERSE-0A0A0A?style=for-the-badge&logoWidth=0&labelColor=0A0A0A&color=D71921" alt="Launch Nothing Music Player" />
+  </a>
+</p>
 
 <div align="center">
   <a href="https://github.com/adm04">
