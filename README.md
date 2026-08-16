@@ -1,6 +1,6 @@
 <!-- Top Banner Graphic -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,28,29&height=180&section=header&text=Arkadeb%20Mondal%20%E2%9C%A8&fontSize=42&fontColor=61afef&animation=twinkling" width="100%" alt="Header Banner"/>
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/banner.png" width="100%" alt="Arkadeb Mondal Banner"/>
 </p>
 
 <!-- Top Badges Row (Inspired by Balram-1) -->
