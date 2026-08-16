@@ -18,121 +18,102 @@
       <stop offset="100%" stop-color="#090b10"/>
     </radialGradient>
 
-    <!-- Pulse Gradient -->
-    <radialGradient id="pulseGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#e5c07b" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#e5c07b" stop-opacity="0"/>
-    </radialGradient>
+    <!-- Glass Overlay Gradient -->
+    <linearGradient id="glassBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#61afef" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#282c34" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#e5c07b" stop-opacity="0.4"/>
+    </linearGradient>
 
     <!-- Arc Gradient -->
     <linearGradient id="arcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#61afef" stop-opacity="0.8"/>
+      <stop offset="0%" stop-color="#61afef" stop-opacity="0.9"/>
       <stop offset="50%" stop-color="#e06c75" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#e5c07b" stop-opacity="0.9"/>
     </linearGradient>
-
-    <!-- Glass Overlay Gradient -->
-    <linearGradient id="glassBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#61afef" stop-opacity="0.3"/>
-      <stop offset="50%" stop-color="#282c34" stop-opacity="0.1"/>
-      <stop offset="100%" stop-color="#e5c07b" stop-opacity="0.3"/>
-    </linearGradient>
-
-    <style>
-      @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-      @keyframes float {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-8px); }
-      }
-      @keyframes pulse {
-        0% { r: 4px; opacity: 1; }
-        100% { r: 24px; opacity: 0; }
-      }
-      @keyframes dash {
-        to { stroke-dashoffset: -40; }
-      }
-      @keyframes rotateGrid {
-        0% { transform: rotateX(25deg) rotateY(0deg) rotateZ(-15deg); }
-        100% { transform: rotateX(25deg) rotateY(360deg) rotateZ(-15deg); }
-      }
-
-      .globe-container { animation: float 6s ease-in-out infinite; }
-      .ring-1 { animation: spin 20s linear infinite; transform-origin: 260px 200px; }
-      .ring-2 { animation: spin 35s linear infinite reverse; transform-origin: 260px 200px; }
-      .ring-3 { animation: spin 15s linear infinite; transform-origin: 260px 200px; }
-      .beacon-pulse { animation: pulse 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite; }
-      .arc-line { stroke-dasharray: 8 4; animation: dash 2s linear infinite; }
-    </style>
   </defs>
 
-  <!-- Card Background -->
-  <rect width="796" height="396" x="2" y="2" rx="16" fill="url(#bgGrad)" stroke="url(#glassBorder)" stroke-width="1.5"/>
+  <!-- Card Outer Container -->
+  <rect width="796" height="396" x="2" y="2" rx="16" fill="url(#bgGrad)" stroke="url(#glassBorder)" stroke-width="2"/>
 
   <!-- Left Side: Interactive 3D Globe Visual -->
-  <g class="globe-container">
-    <!-- Atmosphere Glow Outer Circle -->
+  <g transform="translate(0,0)">
+    <!-- Atmosphere Glow -->
     <circle cx="260" cy="200" r="145" fill="url(#globeGlow)"/>
 
-    <!-- Outer Tech Orbit Rings -->
-    <circle cx="260" cy="200" r="140" fill="none" stroke="#61afef" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="6 6" class="ring-1"/>
-    <circle cx="260" cy="200" r="152" fill="none" stroke="#e5c07b" stroke-opacity="0.12" stroke-width="1" stroke-dasharray="12 8" class="ring-2"/>
-    <ellipse cx="260" cy="200" rx="165" ry="55" fill="none" stroke="#abb2bf" stroke-opacity="0.2" stroke-width="1.2" transform="rotate(-25 260 200)" class="ring-3"/>
+    <!-- Rotating Tech Orbit Ring 1 -->
+    <g>
+      <circle cx="260" cy="200" r="140" fill="none" stroke="#61afef" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="8 8"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 260 200" to="360 260 200" dur="20s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Rotating Tech Orbit Ring 2 -->
+    <g>
+      <circle cx="260" cy="200" r="152" fill="none" stroke="#e5c07b" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="14 10"/>
+      <animateTransform attributeName="transform" type="rotate" from="360 260 200" to="0 260 200" dur="30s" repeatCount="indefinite"/>
+    </g>
 
     <!-- Globe Sphere Base -->
-    <circle cx="260" cy="200" r="120" fill="url(#coreGlow)" stroke="#61afef" stroke-opacity="0.4" stroke-width="1.5"/>
+    <circle cx="260" cy="200" r="120" fill="url(#coreGlow)" stroke="#61afef" stroke-opacity="0.5" stroke-width="2"/>
 
     <!-- 3D Latitude Lines -->
-    <ellipse cx="260" cy="200" rx="120" ry="35" fill="none" stroke="#61afef" stroke-opacity="0.25" stroke-width="1"/>
-    <ellipse cx="260" cy="200" rx="120" ry="70" fill="none" stroke="#61afef" stroke-opacity="0.2" stroke-width="1"/>
-    <ellipse cx="260" cy="200" rx="120" ry="100" fill="none" stroke="#61afef" stroke-opacity="0.15" stroke-width="1"/>
+    <ellipse cx="260" cy="200" rx="120" ry="35" fill="none" stroke="#61afef" stroke-opacity="0.3" stroke-width="1"/>
+    <ellipse cx="260" cy="200" rx="120" ry="70" fill="none" stroke="#61afef" stroke-opacity="0.25" stroke-width="1"/>
+    <ellipse cx="260" cy="200" rx="120" ry="100" fill="none" stroke="#61afef" stroke-opacity="0.2" stroke-width="1"/>
 
     <!-- 3D Longitude Meridian Curves -->
-    <ellipse cx="260" cy="200" rx="35" ry="120" fill="none" stroke="#61afef" stroke-opacity="0.25" stroke-width="1"/>
-    <ellipse cx="260" cy="200" rx="75" ry="120" fill="none" stroke="#61afef" stroke-opacity="0.2" stroke-width="1"/>
-    <line x1="260" y1="80" x2="260" y2="320" stroke="#61afef" stroke-opacity="0.3" stroke-width="1"/>
+    <ellipse cx="260" cy="200" rx="35" ry="120" fill="none" stroke="#61afef" stroke-opacity="0.3" stroke-width="1"/>
+    <ellipse cx="260" cy="200" rx="75" ry="120" fill="none" stroke="#61afef" stroke-opacity="0.25" stroke-width="1"/>
+    <line x1="260" y1="80" x2="260" y2="320" stroke="#61afef" stroke-opacity="0.4" stroke-width="1"/>
 
-    <!-- Stylized Dot-Matrix Landmass Nodes (Framer Globe Style) -->
-    <!-- Asia / India Region -->
-    <circle cx="290" cy="170" r="3.5" fill="#e5c07b"/>
-    <circle cx="280" cy="165" r="2.5" fill="#61afef"/>
-    <circle cx="300" cy="160" r="2.5" fill="#61afef"/>
-    <circle cx="310" cy="175" r="2.5" fill="#61afef"/>
-    <circle cx="275" cy="180" r="2.5" fill="#61afef"/>
-    <circle cx="295" cy="185" r="2.5" fill="#61afef"/>
-    <!-- Europe / Africa Region -->
-    <circle cx="230" cy="150" r="2.5" fill="#98c379"/>
-    <circle cx="220" cy="140" r="2" fill="#98c379"/>
-    <circle cx="240" cy="165" r="2" fill="#98c379"/>
-    <circle cx="235" cy="190" r="2.5" fill="#98c379"/>
-    <circle cx="245" cy="210" r="2" fill="#98c379"/>
-    <!-- Americas Region -->
-    <circle cx="170" cy="160" r="2" fill="#c678dd"/>
-    <circle cx="180" cy="175" r="2.5" fill="#c678dd"/>
-    <circle cx="190" cy="220" r="2" fill="#c678dd"/>
-    <!-- Oceania Region -->
-    <circle cx="330" cy="230" r="2.5" fill="#56b6c2"/>
-    <circle cx="345" cy="235" r="2" fill="#56b6c2"/>
+    <!-- Rotating Continent Nodes Group -->
+    <g>
+      <!-- Asia / India Region -->
+      <circle cx="290" cy="170" r="4" fill="#e5c07b"/>
+      <circle cx="280" cy="165" r="3" fill="#61afef"/>
+      <circle cx="300" cy="160" r="3" fill="#61afef"/>
+      <circle cx="310" cy="175" r="3" fill="#61afef"/>
+      <circle cx="275" cy="180" r="3" fill="#61afef"/>
+      <circle cx="295" cy="185" r="3" fill="#61afef"/>
+      <!-- Europe / Africa Region -->
+      <circle cx="230" cy="150" r="3" fill="#98c379"/>
+      <circle cx="220" cy="140" r="2.5" fill="#98c379"/>
+      <circle cx="240" cy="165" r="2.5" fill="#98c379"/>
+      <circle cx="235" cy="190" r="3" fill="#98c379"/>
+      <circle cx="245" cy="210" r="2.5" fill="#98c379"/>
+      <!-- Americas Region -->
+      <circle cx="170" cy="160" r="2.5" fill="#c678dd"/>
+      <circle cx="180" cy="175" r="3" fill="#c678dd"/>
+      <circle cx="190" cy="220" r="2.5" fill="#c678dd"/>
+      <!-- Oceania Region -->
+      <circle cx="330" cy="230" r="3" fill="#56b6c2"/>
+      <circle cx="345" cy="235" r="2.5" fill="#56b6c2"/>
 
-    <!-- Global Connection Flight Arc -->
-    <path d="M 290 170 Q 230 100 170 160" fill="none" stroke="url(#arcGrad)" stroke-width="2" class="arc-line"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 260 200" to="360 260 200" dur="40s" repeatCount="indefinite"/>
+    </g>
 
-    <!-- Beacon Pulse Pin over India (290, 170) -->
-    <circle cx="290" cy="170" r="4" fill="url(#pulseGrad)" class="beacon-pulse"/>
-    <circle cx="290" cy="170" r="5" fill="#e5c07b"/>
-    <circle cx="290" cy="170" r="2" fill="#ffffff"/>
+    <!-- Flight Arc -->
+    <path d="M 290 170 Q 230 100 170 160" fill="none" stroke="url(#arcGrad)" stroke-width="2.5" stroke-dasharray="6 4"/>
 
-    <!-- Location Label Badge -->
+    <!-- Pulsing Pin on India Point -->
+    <g transform="translate(290, 170)">
+      <circle cx="0" cy="0" r="6" fill="#e5c07b" fill-opacity="0.5">
+        <animate attributeName="r" values="4;18;4" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.8;0.1;0.8" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="4.5" fill="#e5c07b"/>
+      <circle cx="0" cy="0" r="2" fill="#ffffff"/>
+    </g>
+
+    <!-- Location Tag Badge -->
     <g transform="translate(305, 142)">
-      <rect width="115" height="28" rx="6" fill="#1e222b" stroke="#e5c07b" stroke-width="1" stroke-opacity="0.8"/>
+      <rect width="115" height="28" rx="6" fill="#1e222b" stroke="#e5c07b" stroke-width="1.2"/>
       <text x="10" y="18" font-family="'Fira Code', monospace" font-size="11" font-weight="600" fill="#e5c07b">📍 India (IST)</text>
     </g>
   </g>
 
-  <!-- Right Side: Content Details & Status -->
-  <g transform="translate(470, 70)">
+  <!-- Right Side: Text Details -->
+  <g transform="translate(465, 65)">
     <!-- Header Title -->
     <text x="0" y="30" font-family="'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" fill="#ffffff">
       Global Presence 🌐
@@ -140,7 +121,7 @@
 
     <!-- Subtitle -->
     <text x="0" y="55" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" fill="#abb2bf">
-      Interactive 3D Location & Remote Availability
+      Interactive 3D Location &amp; Remote Availability
     </text>
 
     <line x1="0" y1="72" x2="280" y2="72" stroke="#282c34" stroke-width="1.5"/>
@@ -148,7 +129,7 @@
     <!-- Information Bullets -->
     <g transform="translate(0, 95)">
       <!-- Item 1 -->
-      <circle cx="8" cy="8" r="4" fill="#61afef"/>
+      <circle cx="8" cy="8" r="4" fill="#e06c75"/>
       <text x="24" y="12" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e06c75">Location:</text>
       <text x="95" y="12" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" fill="#d19a66">Kolkata, India 🇮🇳</text>
 
@@ -170,9 +151,9 @@
 
     <!-- Status Badge -->
     <g transform="translate(0, 235)">
-      <rect width="270" height="32" rx="8" fill="#1b2234" stroke="#61afef" stroke-width="1" stroke-opacity="0.5"/>
+      <rect width="275" height="32" rx="8" fill="#1b2234" stroke="#61afef" stroke-width="1"/>
       <circle cx="18" cy="16" r="4" fill="#98c379"/>
-      <text x="30" y="20" font-family="'Fira Code', monospace" font-size="11" font-weight="600" fill="#98c379">AVAILABLE FOR FREELANCE & PROJECTS</text>
+      <text x="30" y="20" font-family="'Fira Code', monospace" font-size="11" font-weight="600" fill="#98c379">AVAILABLE FOR FREELANCE &amp; PROJECTS</text>
     </g>
   </g>
 </svg>

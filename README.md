@@ -68,7 +68,7 @@
 
 <!-- Interactive Framer-Style 3D Globe & Global Presence -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/3d-globe.svg" width="100%" alt="Interactive 3D Globe" />
+  <img src="./assets/3d-globe.svg" width="100%" alt="Interactive 3D Globe" />
 </div>
 
 ---
