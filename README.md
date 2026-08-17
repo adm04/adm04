@@ -154,12 +154,6 @@
   <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/game.gif" alt="Space Shooter Contribution Graph" width="100%" />
 </div>
 
-<br/>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/adm04/adm04/main/profile-3d-contrib/profile-night-rainbow.svg?v=3" alt="3D Contribution Matrix" width="100%" />
-</div>
-
 <hr opacity="0.2"/>
 
 <!-- BATCAVE SOUND CONSOLE & DEV QUOTE -->
