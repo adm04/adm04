@@ -147,11 +147,11 @@
 
 <hr opacity="0.2"/>
 
-<!-- CONTRIBUTIONS & SNAKE -->
+<!-- CONTRIBUTIONS & SPACE SHOOTER -->
 <h3 align="left"><code>[05 // CONTRIBUTION MATRIX]</code></h3>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/adm04/adm04/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/game.gif" alt="Space Shooter Contribution Graph" width="100%" />
 </div>
 
 <br/>

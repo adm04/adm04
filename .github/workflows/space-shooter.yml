@@ -1,0 +1,33 @@
+name: Generate Space Shooter Game
+
+on:
+  # Run automatically every 24 hours
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Allows manual triggering of the workflow from the Actions tab
+  workflow_dispatch:
+
+  # Run on every push to the main branch
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  update-game:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # Required for commit amending
+
+      - name: Generate Space Shooter Animation
+        uses: czl9707/gh-space-shooter@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          output-path: 'assets/game.gif'
+          strategy: 'random'
