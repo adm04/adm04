@@ -49,7 +49,7 @@
 
   <line x1="20" y1="38" x2="475" y2="38" stroke="#222222" stroke-width="1"/>
 
-  <!-- Left Side: Nothing OS Instrument Readouts -->
+  <!-- Left Side: Instrument Readouts -->
   <g transform="translate(20, 56)" class="mono" font-size="10">
     <!-- Item 1: Contributions -->
     <g transform="translate(0, 0)">

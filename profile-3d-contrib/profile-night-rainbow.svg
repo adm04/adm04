@@ -252,7 +252,7 @@
 
   <line x1="25" y1="270" x2="825" y2="270" stroke="#222222" stroke-width="1"/>
 
-  <!-- Nothing Design System Legend & Status Strip -->
+  <!-- Design System Legend & Status Strip -->
   <g font-family="'Space Mono', 'Courier New', monospace" font-size="10" fill="#666666">
     <text x="30" y="294">ACTIVITY LEVEL:</text>
 
@@ -272,6 +272,6 @@
     <rect x="365" y="284" width="10" height="10" fill="#D71921" class="peak-red"/>
     <text x="380" y="293" fill="#D71921" font-weight="bold">PEAK [SIGNAL RED]</text>
 
-    <text x="680" y="294" fill="#999999">[ ND-OS // VER 3.0 ]</text>
+    <text x="680" y="294" fill="#999999">[ ADM-OS // VER 3.0 ]</text>
   </g>
 </svg>

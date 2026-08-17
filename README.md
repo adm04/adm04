@@ -1,6 +1,6 @@
-<!-- ND-OS // SYSTEM HEADER BANNER -->
+<!-- ADM-OS // SYSTEM HEADER BANNER -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-banner.svg?v=3" width="100%" alt="Arkadeb Mondal - Nothing OS Header Banner"/>
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/arka-banner.svg?v=3" width="100%" alt="Arkadeb Mondal - Header Banner"/>
 </p>
 
 <!-- INSTRUMENT BADGES ROW -->
@@ -22,7 +22,7 @@
 <!-- ANIMATED TERMINAL TYPEWRITER -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=22&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=true&width=750&height=40&lines=%5B%2B%5D+FULL-STACK+ARCHITECT+%26+UI%2FUX+DESIGNER;%5B%2B%5D+CRAFTING+MONOCHROMATIC+HIGH-PERFORMANCE+WEB+SYSTEMS;%5B%2B%5D+WELCOME+TO+ADM04%2FND-OS+CONSOLE" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=22&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=true&width=750&height=40&lines=%5B%2B%5D+FULL-STACK+ARCHITECT+%26+UI%2FUX+DESIGNER;%5B%2B%5D+CRAFTING+MONOCHROMATIC+HIGH-PERFORMANCE+WEB+SYSTEMS;%5B%2B%5D+WELCOME+TO+ADM04+CONSOLE" alt="Typing SVG" />
   </a>
 </div>
 
@@ -63,11 +63,11 @@
   <!-- Animated Hero Bio GIF -->
   <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/hero-bio.gif?v=1" width="100%" alt="Hero Bio Animation" />
   <br/><br/>
-  <!-- Nothing OS Profile Details Card -->
-  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-profile-details.svg?v=1" width="100%" alt="Nothing OS Profile Summary" />
+  <!-- Profile Details Card -->
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/arka-profile-details.svg?v=1" width="100%" alt="Profile Summary" />
   <br/><br/>
-  <!-- Animated Nothing OS GitHub Streak Card -->
-  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-streak.svg?v=1" width="100%" alt="Animated Nothing OS GitHub Streak Widget" />
+  <!-- Animated GitHub Streak Card -->
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/arka-streak.svg?v=1" width="100%" alt="Animated GitHub Streak Widget" />
 </div>
 
 </td>
@@ -80,7 +80,7 @@
 <h3 align="left"><code>[02 // GLOBAL MATRIX &amp; PRESENCE]</code></h3>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/3d-globe.svg?v=3" width="100%" alt="Nothing OS 3D Global Matrix" />
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/3d-globe.svg?v=3" width="100%" alt="3D Global Matrix" />
 </div>
 
 <hr opacity="0.2"/>
@@ -128,15 +128,15 @@
 <h3 align="left"><code>[04 // ACTIVITY &amp; REPOSITORY METRICS]</code></h3>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-activity-overview.svg?v=1" width="100%" alt="Nothing OS Activity Overview Radar Chart" />
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/arka-activity-overview.svg?v=1" width="100%" alt="Activity Overview Radar Chart" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-languages.svg?v=1" width="48%" alt="Nothing OS Top Languages" />
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/arka-languages.svg?v=1" width="48%" alt="Top Languages" />
   &nbsp;
-  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-productive-time.svg?v=1" width="48%" alt="Nothing OS Productive Hours" />
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/arka-productive-time.svg?v=1" width="48%" alt="Productive Hours" />
 </div>
 
 <br/>
@@ -157,7 +157,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/adm04/adm04/main/profile-3d-contrib/profile-night-rainbow.svg?v=3" alt="Nothing OS 3D Contribution Matrix" width="100%" />
+  <img src="https://raw.githubusercontent.com/adm04/adm04/main/profile-3d-contrib/profile-night-rainbow.svg?v=3" alt="3D Contribution Matrix" width="100%" />
 </div>
 
 <hr opacity="0.2"/>
@@ -166,11 +166,11 @@
 <h3 align="left"><code>[06 // BATCAVE SOUND CONSOLE]</code></h3>
 
 <div align="center">
-  <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank" title="Click to open The Batman (2022) 29-Track Score Player">
-    <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/nothing-player.svg?v=2" width="340" alt="Nothing OS Animated Music Player Widget" />
+  <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/arka-player-interactive.html" target="_blank" title="Click to open The Batman (2022) 29-Track Score Player">
+    <img src="https://raw.githubusercontent.com/adm04/adm04/main/assets/arka-player.svg?v=2" width="340" alt="Animated Music Player Widget" />
   </a>
   <br/><br/>
-  <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/nothing-player-interactive.html" target="_blank">
+  <a href="https://htmlpreview.github.io/?https://github.com/adm04/adm04/blob/main/arka-player-interactive.html" target="_blank">
     <img src="https://img.shields.io/badge/LAUNCH_BATMAN_SCORE-29_TRACKS_MICHAEL_GIACCHINO-0A0A0A?style=for-the-badge&logoWidth=0&labelColor=0A0A0A&color=D71921" alt="Launch The Batman Score Player" />
   </a>
 </div>
@@ -203,5 +203,6 @@
 <br/>
 
 <div align="center">
-  <p><code>. . . . . . . . . [ ND-OS // END OF READOUT ] . . . . . . . . .</code></p>
+  <p><code>. . . . . . . . . [ ADM-OS // END OF READOUT ] . . . . . . . . .</code></p>
 </div>
+

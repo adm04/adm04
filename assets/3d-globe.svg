@@ -15,7 +15,7 @@
     </filter>
 
     <!-- Arc Gradient -->
-    <linearGradient id="nothingArc" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="globeArc" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#D71921" stop-opacity="0.9"/>
       <stop offset="50%" stop-color="#999999" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#333333" stop-opacity="0.2"/>
@@ -28,7 +28,7 @@
   <!-- Dot Grid Pattern -->
   <rect width="796" height="396" x="2" y="2" fill="url(#globeDotGrid)"/>
 
-  <!-- Left Side: Nothing 3D Wireframe Globe -->
+  <!-- Left Side: 3D Wireframe Globe -->
   <g transform="translate(0,0)">
     <!-- Tech Orbit Ring 1 -->
     <g>
@@ -77,7 +77,7 @@
     </g>
 
     <!-- Flight Vector Arc -->
-    <path d="M 280 170 Q 220 100 160 160" fill="none" stroke="url(#nothingArc)" stroke-width="2" stroke-dasharray="4 4"/>
+    <path d="M 280 170 Q 220 100 160 160" fill="none" stroke="url(#globeArc)" stroke-width="2" stroke-dasharray="4 4"/>
 
     <!-- Signal Red Active Location Pulse on India Point -->
     <g transform="translate(280, 170)">
@@ -96,7 +96,7 @@
     </g>
   </g>
 
-  <!-- Right Side: Nothing OS Instrument Parameter Panel -->
+  <!-- Right Side: Instrument Parameter Panel -->
   <g transform="translate(450, 50)">
     <!-- Header Title -->
     <text x="0" y="24" font-family="'Space Mono', monospace" font-size="14" font-weight="bold" fill="#FFFFFF" letter-spacing="1">
